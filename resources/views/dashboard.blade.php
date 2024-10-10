@@ -39,7 +39,7 @@
                     </span>
                 </p>
                 <p class="text-gray-800 text-sm mb-3 font-bold">
-                    {{ $user->followers->count() }}
+                    {{ $user->followings->count() }}
                     <span class="font-normal">
                         Siguiendo
                     </span>
